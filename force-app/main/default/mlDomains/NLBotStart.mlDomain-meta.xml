@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MlDomain xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Nederlandse Intent en Entity Set voor Einstein bots.
+Vragen en Suggesties welkom op sdeman@salesforce.com</description>
+    <label>NLBotStart</label>
+    <mlIntents>
+        <developerName>AfsprakenGeneric</developerName>
+        <label>AfsprakenGeneric</label>
+        <mlIntentUtterances>
+            <utterance>kan er iemand langskomen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>komt er iemand langs</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er iemand onderweg</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil dat er iemand een afspraak maakt</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik langskomen voor een afspraak</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil dat er iemand hierheen komt</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil een afspraak maken</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik een afspraak maken</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waar is de monteur</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>wanneer komt de tech</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan er een tech langskomen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil afspreken</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>wil afspraak maken</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er een afspraak</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>afspraak veranderen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik een afspraak maken zodat er iemand langs komt</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan er iemand voorbij komen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil gezellig op bezoek komen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik een afspraak maken om langs te komen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>zijn jullie onderweg</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ben je onderweg</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil naar jullie toe</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>afspraak afzeggen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>bezoek komen monteur</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waar kan ik ik een afspraak plannen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>plannen voor langs komen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er iemand onderweg</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er een tech onderweg</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>jullie zijn te laat</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waar is mijn afspraak</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kom je snel langs</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>wanneer zijn jullie hier</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is onderweg</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waar is jullie afspraak</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>komt er iemand langs</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>wanneer komt de afspraak</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>de afspraak kom niet vanzelf</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waar is mijn monteur die er had moeten zijn</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er iemand afspraak komen langs onderweg</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waarom komt er niemand langs</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er iemand langsgeweest</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er iemand langsgekomen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>nieuwe afspraak maken</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>afspraak make</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik iets afspreken</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <description>Algemene Bestellingen</description>
+        <developerName>BestellingenGeneric</developerName>
+        <label>BestellingenGeneric</label>
+        <mlIntentUtterances>
+            <utterance>op een dag bestel ik iets anders, nu niet</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil weten waar mijn bestelling is</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>gisteren had mijn bestelling er moeten zijn</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wacht al honderd jaar op mijn bestelling</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik heb iets besteld</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waar is mijn bestelling</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil iets nieuws kopen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>mijn pakketje is helaas in geen velden of wegen te bekennen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>mijn bestelling was goed, maar jullie levering was dat zeker niet</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>verkeerde levering van bestelling</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil iets bestellen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waarom is mijn bestelling er niet</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is mijn bestelling onderweg</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>de bestelstatus aangeven</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik iets bestellen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>mijn order of bestelling is er al</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>mijn order is er niet</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>mijn bestelling is niet goed aangekomen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>zijn jullie mijn bestelling vergeten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>pakket kwijt in de post</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>de levering was niet op tijd van pakket</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>mijn bestelnummer is niet goed</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is mijn pakketje onderweg</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil mijn pakket nu</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waar is mijn pakketje</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waar blijft dat pakket nou</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>huidige status van bestelling</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>hey waar blijft m&apos;n order nou</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is mijn pakket kwijtgeraakt</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>pakketje opgegeten door de hond</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is de bestelling kwijtgeraakt of zo</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik heb iets gekocht maar het is er niet</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil bestellen maar waar kan dat</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>bestelling niet geleverd hier</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>fout adres op bestelling</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>hey, waarom heb ik m&apos;n bestelling nog niet</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>het adres op de bestelling was niet goed</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>de vorige bestelling nog een keer doen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik iets anders bestellen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>wanneer komt mijn bestelling</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waar is mijn bestelling</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>wanneer kom mijn pakket</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <description>Een algemene intent voor Cases, Problemen, Tickets, Zaken en Dossiers.</description>
+        <developerName>CasesGeneric</developerName>
+        <label>CasesGeneric</label>
+        <mlIntentUtterances>
+            <utterance>Ik heb een vraag</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik heb een case aangemaakt</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil een vraag stellen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is mijn vraag al opgelost</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er al een antwoord op mijn vraag</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik heb een klacht</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik u een vraag stellen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>heeft u aan m&apos;n vraag gewerkt</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>hebben jullie al een antwoord voor mijn vraag</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>hey ik heb een vraagje</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik jullie een vraag stellen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik jou een vraag stellen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik zou een klacht willen indienen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er een update voor mijn vraag</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>case update</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>vraag update</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>dossier updat</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>case sluiten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>wat is de status van case 0003434</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik mijn vraag zien</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kunnen jullie mijn vraag beantwoorden</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil een case maken</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kunt u mij vertellen was de status van mijn case is</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>dossier afsluiten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>een nieuw dossier aanmaken</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik mijn dossier zien</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er een update voor wat ik vroeg</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik had een case aangemaakt</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil een nieuwe case aanmaken</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>heb je al iets uitgevonden</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil een vraag aan jullie stellen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>vraag afsluiten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waar is het antwoord op mijn vraag</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waar is het antwoord op mijn klacht</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>een klacht deponeren</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waar kan ik vragen stellen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>wat heb ik gevraagd</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>effe een vraagke</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is m&apos;n ticket al opgelost</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>sluit m&apos;n case</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ff een vraagje</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is m&apos;n ticket al gesloten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>heeft u mijn vraag reeds beantwoord</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>lijstje van m&apos;n vragen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>sluit mijn open vraag alstublieft</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>klein vraagje</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>heb je al tijd gehad mijn vraag te beantwoorden</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er al nieuws over m&apos;n vraag</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil een case openen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil case sluiten</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>Frustratie</developerName>
+        <label>Frustratie</label>
+        <mlIntentUtterances>
+            <utterance>dit is stom</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>jij bent stom</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>wat een uitermate matige bot</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik ben boos</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>laat maar dan</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>agh pleur op</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ach laat dit maar zitten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik haat bots</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ben je helemaal van lotje getikt</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>dit is pure shit</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>arggghhhhhh wat een onzin</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>wat de pleuris man</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik begrijp het niet</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>jij bent dom</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>dit is de stomste bot ooit</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>rot op stom ding</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik haat dit</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waardeloze troep is dit</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>denk je dat ik een idioot ben</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>dat is mooi dom dan</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>wat een rotbedrijf zijn jullie</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>dit is waardeloos</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>jullie zijn een slecht bedrijf</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>stelletje idioten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik kom eraan om je op je muil te slaan</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waardeloze firma zijn jullie</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>dit is dom</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik haat jullie</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik haat deze hatige bot</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik begrijp hier niets van</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik haat je bot</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik heb een hekel aan bots</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>all bots must die</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <description>Transfer to Agent</description>
+        <developerName>Praat_Met_Agent</developerName>
+        <label>Praat Met Agent</label>
+        <mlIntentUtterances>
+            <utterance>kan ik met een echt iemand praten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>praten met iemand echt</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>persoonlijk chat graag</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik hou van dit gesprek maar wil liever met iemand praten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>mensen die echt zijn wil ik spreken en chatten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil met een mens praten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil graag iemand spreken</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>zijn er ook echte mensen daar</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil met een agent praten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik chatten met iemand</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan een persoon mij te woord staan</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>praat met agent</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er ook iemand die echt leeft bij jullie</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is daar iemand</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan iemand met me chatten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik een mens spreken</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil chatten met een agent zoals een echte persoon</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil chatten met persoon</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik klets liever met een echt mens</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>chatten met agent die echt mens is</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er een mens die met mij chatten kan</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>de chat, hij is leuker met een persoon</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er een mens waarmee ik kan praten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil zo graag met een agent praten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil lekker kletsen met iemand</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>waar is je baas om mee te praten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>praat met medewerker menselijk</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>medewerker chatten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>transfer to agent</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>met persoon chatten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>zou het mogelijk zijn om met een echte persoon te spreken</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil met je baas praten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>chatten met medewerken</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er ook een medewerker</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>medewerker sprekn</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er ook een mens aanwezig</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>transfer to person</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>transfer naar persoon</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil met een persoon chatten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>is er ook een gesprek met medewerker mogelijk</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <description>Terug naar het begin</description>
+        <developerName>Welkom</developerName>
+        <label>Welkom</label>
+        <mlIntentUtterances>
+            <utterance>terug naar begin</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>welkom bericht</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>begin weer opnieuw</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>start opnieuw</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>hoofdmenu</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>begin opnieuw</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>welkom</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>hoofd menu</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>opnieuw beginnen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ga naar het hoofdmenu</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik het nog eens proberen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ga terug naar welkom</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil opnieuw starten met deze chat</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil naar het begin</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik terug naar het begin</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>laat me het hoofdmenu zien</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik nieuw starten aan het begin</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kun je opnieuw beginnen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kan ik nieuw beginnen</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil naar het begin menu</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>naar het begin om opnieuw te starten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>startscherm</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ik wil helemaal terug naar begin</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>kun je opnieuw starten</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ga terug naar start</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>start het eerste bericht</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>terug naar eerste bericht</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>het hoofdmenu laten zien</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>restart gesprek</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>gesprek opnieuw beginnen</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlSlotClasses>
+        <dataType>Text</dataType>
+        <developerName>Email</developerName>
+        <extractionRegex>\b[\w\.\w]*+@\w+?\.[a-zA-Z]{2,3}\b</extractionRegex>
+        <extractionType>Pattern</extractionType>
+        <label>Email</label>
+    </mlSlotClasses>
+    <mlSlotClasses>
+        <dataType>Text</dataType>
+        <developerName>IBAN</developerName>
+        <extractionRegex>^[a-zA-Z]{2}[0-9]{2}[a-zA-Z0-9]{4}[0-9]{7}([a-zA-Z0-9]?){0,16}$</extractionRegex>
+        <extractionType>Pattern</extractionType>
+        <label>IBAN</label>
+    </mlSlotClasses>
+    <mlSlotClasses>
+        <dataType>Text</dataType>
+        <description>Nederlandse postcode, met en zonder spatie</description>
+        <developerName>Postcode</developerName>
+        <extractionRegex>^[1-9][0-9]{3}[\s]?[A-Za-z]{2}$</extractionRegex>
+        <extractionType>Pattern</extractionType>
+        <label>PostcodeNL</label>
+    </mlSlotClasses>
+    <mlSlotClasses>
+        <dataType>Text</dataType>
+        <description>Nederlandse en Belgische Provincies</description>
+        <developerName>ProvinciesNLBE</developerName>
+        <extractionType>Value</extractionType>
+        <label>ProvinciesNLBE</label>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>WVL</terms>
+            </synonymGroup>
+            <value>West-Vlaanderen</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>WBR</terms>
+            </synonymGroup>
+            <value>Waals-Brabant</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>VBR</terms>
+            </synonymGroup>
+            <value>Vlaams-Brabant</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>OVL</terms>
+            </synonymGroup>
+            <value>Oost-Vlaanderen</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>NAM</terms>
+            </synonymGroup>
+            <value>Namen</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>LUX</terms>
+            </synonymGroup>
+            <value>Luxemburg</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>LIE</terms>
+                <terms>Liège</terms>
+            </synonymGroup>
+            <value>Luik</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>Hanaut</terms>
+                <terms>HAI</terms>
+            </synonymGroup>
+            <value>Henegouwen</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>ANT</terms>
+            </synonymGroup>
+            <value>Antwerpen</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>ZL</terms>
+            </synonymGroup>
+            <value>Zeeland</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>ZH</terms>
+            </synonymGroup>
+            <value>Zuid-Holland</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>UT</terms>
+            </synonymGroup>
+            <value>Utrecht</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>OV</terms>
+            </synonymGroup>
+            <value>Overijssel</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>NH</terms>
+            </synonymGroup>
+            <value>Noord-Holland</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>NB</terms>
+            </synonymGroup>
+            <value>Noord-Brabant</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>LB</terms>
+            </synonymGroup>
+            <value>Limburg</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>GR</terms>
+            </synonymGroup>
+            <value>Groningen</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>GD</terms>
+            </synonymGroup>
+            <value>Gelderland</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>FR</terms>
+            </synonymGroup>
+            <value>Friesland</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>FL</terms>
+            </synonymGroup>
+            <value>Flevoland</value>
+        </mlSlotClassValues>
+        <mlSlotClassValues>
+            <synonymGroup>
+                <languages>en_US</languages>
+                <terms>DR</terms>
+            </synonymGroup>
+            <value>Drenthe</value>
+        </mlSlotClassValues>
+    </mlSlotClasses>
+    <mlSlotClasses>
+        <dataType>Text</dataType>
+        <developerName>StraatHuisnummer</developerName>
+        <extractionRegex>^([1-9][e][\s])*([a-zA-Z]+(([\.][\s])|([\s]))?)+[1-9][0-9]*(([-][1-9][0-9]*)|([\s]?[a-zA-Z]+))?$</extractionRegex>
+        <extractionType>Pattern</extractionType>
+        <label>Straat en Huisnummer</label>
+    </mlSlotClasses>
+</MlDomain>

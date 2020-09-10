@@ -1,0 +1,28 @@
+{
+  "orgName": "NLBotStart Scratch Org",
+  "edition": "Developer",
+  "features": ["ServiceCloud","Chatbot","CPQ","Communities","Knowledge","LiveAgent","LightningServiceConsole","LiveMessage"],
+  "settings": {
+    "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+        "enableS1EncryptedStoragePref2": false
+    },
+    "communitiesSettings": {
+        "enableNetworksEnabled": true
+    },
+    "omniChannelSettings": {
+        "enableOmniChannel": true
+    },
+    "liveAgentSettings": {
+      "enableLiveAgent": true
+    },
+    "securitySettings": {
+      "passwordPolicies": {
+        "enableSetPasswordInApi": true
+      }
+    }
+    
+  }
+}
