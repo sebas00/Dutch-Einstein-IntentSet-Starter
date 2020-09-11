@@ -9,4 +9,4 @@ Also includeds well are Entities for Dutch Postcodes, NL and BE Provinces and IB
 You can get a pre-release developer org to test it out, and then install the unmanaged package to install a QuickStart Dutch Einstein Intent Set
 
 To install use this direct link to Unmanaged package (will only work on pre-release orgs)
-https://login.salesforce.com/packaging/installPackage.apexp?p0=04tB0000000BFnr&isdtp=p1
+https://sfdc.co/nlbotstarter
