@@ -427,6 +427,18 @@ Vragen en Suggesties welkom op sdeman@salesforce.com</description>
         <mlIntentUtterances>
             <utterance>ik wil case sluiten</utterance>
         </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>even een vraag</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>even een klacht</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>effe een vraagje</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <utterance>ticket status opvragen</utterance>
+        </mlIntentUtterances>
     </mlIntents>
     <mlIntents>
         <developerName>Frustratie</developerName>
@@ -548,13 +560,13 @@ Vragen en Suggesties welkom op sdeman@salesforce.com</description>
             <utterance>ik hou van dit gesprek maar wil liever met iemand praten</utterance>
         </mlIntentUtterances>
         <mlIntentUtterances>
-            <utterance>mensen die echt zijn wil ik spreken en chatten</utterance>
+            <utterance>mensen die echt zijn wil ik chatten</utterance>
         </mlIntentUtterances>
         <mlIntentUtterances>
             <utterance>ik wil met een mens praten</utterance>
         </mlIntentUtterances>
         <mlIntentUtterances>
-            <utterance>ik wil graag iemand spreken</utterance>
+            <utterance>ik wil graag iemand chatten</utterance>
         </mlIntentUtterances>
         <mlIntentUtterances>
             <utterance>zijn er ook echte mensen daar</utterance>
@@ -581,7 +593,7 @@ Vragen en Suggesties welkom op sdeman@salesforce.com</description>
             <utterance>kan iemand met me chatten</utterance>
         </mlIntentUtterances>
         <mlIntentUtterances>
-            <utterance>kan ik een mens spreken</utterance>
+            <utterance>kan ik een echt mens chatten alstublieft</utterance>
         </mlIntentUtterances>
         <mlIntentUtterances>
             <utterance>ik wil chatten met een agent zoals een echte persoon</utterance>
@@ -626,7 +638,7 @@ Vragen en Suggesties welkom op sdeman@salesforce.com</description>
             <utterance>met persoon chatten</utterance>
         </mlIntentUtterances>
         <mlIntentUtterances>
-            <utterance>zou het mogelijk zijn om met een echte persoon te spreken</utterance>
+            <utterance>zou het mogelijk zijn om met een echte persoon te chatten</utterance>
         </mlIntentUtterances>
         <mlIntentUtterances>
             <utterance>ik wil met je baas praten</utterance>
@@ -638,7 +650,7 @@ Vragen en Suggesties welkom op sdeman@salesforce.com</description>
             <utterance>is er ook een medewerker</utterance>
         </mlIntentUtterances>
         <mlIntentUtterances>
-            <utterance>medewerker sprekn</utterance>
+            <utterance>medewerker contacteren</utterance>
         </mlIntentUtterances>
         <mlIntentUtterances>
             <utterance>is er ook een mens aanwezig</utterance>
@@ -653,7 +665,7 @@ Vragen en Suggesties welkom op sdeman@salesforce.com</description>
             <utterance>ik wil met een persoon chatten</utterance>
         </mlIntentUtterances>
         <mlIntentUtterances>
-            <utterance>is er ook een gesprek met medewerker mogelijk</utterance>
+            <utterance>is er ook een chat met medewerker mogelijk</utterance>
         </mlIntentUtterances>
     </mlIntents>
     <mlIntents>
