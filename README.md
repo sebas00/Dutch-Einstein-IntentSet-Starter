@@ -1,6 +1,6 @@
-# Dutch Einstein Starter Intent Set
+# Dutch Salesforce Einstein Starter Intent Set
 
-Ever since I built an Einstein bot and used it for my kids I wanted it to be in Dutch, I used some workaround before but from the Winter ’21 release (so October 2020) we’ll have Dutch NLP in Einstein Chatbots!
+Ever since I built a Salesforce Einstein bot and used it for my kids I wanted it to be in Dutch, I used some workaround before but from the Winter ’21 release (so October 2020) we’ll have Dutch NLP in Einstein Chatbots!
 
 To test it out and get customers up and running I’ve created a Intent set that has common intents for Cases, Orders and Appointments.
 
