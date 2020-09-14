@@ -1,4 +1,4 @@
-# Dutch Salesforce Einstein Starter Intent Set
+# Dutch Salesforce Einstein Bot Starter NLP Intent Set
 
 Ever since I built a Salesforce Einstein bot and used it for my kids I wanted it to be in Dutch, I used some workaround before but from the Winter ’21 release (so October 2020) we’ll have Dutch NLP in Einstein Chatbots!
 
@@ -10,3 +10,5 @@ You can get a pre-release developer org to test it out, and then install the unm
 
 To install use this direct link to Unmanaged package (will only work on pre-release orgs)
 https://sfdc.co/nlbotstarter
+
+# Salesforce Bot Nederlands - Einstein Intent Set
